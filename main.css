@@ -40,6 +40,11 @@ body {
     cursor: pointer;
     margin-top: 10px;
   }
+
+  #generateButton:hover {
+    transition: 0.9s;
+    transform: scale(1.5);
+  }
   
   #mindfulMoment {
     margin-top: 20px;
@@ -53,6 +58,12 @@ body {
     border: transparent;
     margin-top: 20px;
     padding: 5px;
+    cursor: pointer;
+  }
+
+  .toggle-button:hover {
+    transition: 0.9s;
+    transform: scale(1.2);
   }
   
   /* Change mode styles */
